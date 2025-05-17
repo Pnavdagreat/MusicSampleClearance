@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Info</title>
+  <link rel="stylesheet" href="main.css">
+  <style>
+  h2{
+  text-align: center;
+  }
+  
+form {
+  width: 60%;
+  margin: 40px auto;
+  font-family: Times;
+  font-size: 1 em;
+  background-color: #faf0e6;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+fieldset {
+  background-color: #9daaa2;       
+  border: 5px solid #c4b7aa;       
+  border-radius: 6px;
+  padding: 20px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: .75 em;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  
+}
+
+
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Music Sample Clearance</h1>
+    <nav>
+      <ul>
+      	<li><a href="index.html">Home</a></li>
+        <li><a href= "aboutsamples.html" >About Sample Clearance</a></li>
+       	<li><a href="clearingsample.html">How to clear a sample</a></li>
+        <li><a href="artistsampleissue.html">Artists and Clearance Issues</a></li>
+        <li><a href="copyrightfairuse.html">Copyright laws and fair use</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+      </ul>
+      
+    </nav>
+  </header>
+  
+
+  
+      <h2> Contact Info </h2>
+	<form>
+	
+	<fieldset>
+	<legend>Personal Information</legend>
+	<label>Name:
+	<input type="text" name="Name" id="Name"></label>
+	<br><br>
+	
+	<label>Email:
+	<input type="email" name="Email" id="Email"></label>
+	<br><br>
+	
+	<label> Additional Information:
+	<textarea name="Comments" id="Comments" rows="3" cols="60"></textarea>
+	<br><br>
+	</fieldset>
+
+	
+	<fieldset>
+	<legend> Did you enjoy my Website? </legend>
+	<input type="radio" id="yes" name="choice" value="yes">
+    <label for="yes">Yes</label>
+    <br><br>
+    
+    <input type="radio" id="no" name="choice" value="no">
+    <label for="no">No</label>
+	<br><br>
+	
+	<input type="radio" id="unsure" name="choice" value="unsure">
+    <label for="unsure">Not Sure</label>
+	<br><br>
+	</fieldset>
+	
+	<fieldset>
+	<legend>What was your favorite page?</legend>
+	<input type="checkbox" id="home" name="page" value="home">
+    <label for="home">Home</label>
+    <br><br>
+    
+    <input type="checkbox" id="clearingsample" name="page" value="clearingsample">
+    <label for="clearingsample">Clearing Sample Page</label>
+	<br><br>
+	
+	<input type="checkbox" id="artistsample" name="page" value="artistsample">
+    <label for="artistsample">Artists dealing with sample issues</label>
+	<br><br>
+	
+	<input type="checkbox" id="aboutsample" name="page" value="aboutsample">
+    <label for="aboutsample">About Sample Clearances</label>
+	<br><br>
+	
+	<input type="checkbox" id="copyrightfairuse" name="page" value="copyrightfairuse">
+    <label for="copyrightfairuse">Copyright and Fairuse</label>
+	<br><br>
+	</fieldset>
+	
+	<fieldset>
+	<label for="helpful">Is my website helpful for people to learn about the topic?</label>
+    <select size = "3" id="preference" name="preference">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+      <option value="not sure">Not Sure</option>
+    </select>
+    </fieldset>
+	
+	
+	
+		
+	
+	<input type="submit" id="mySubmit" value="Submit">
+	<input type="reset" value="Reset">
+	
+       
+</form>
+     
+
+
+  <footer>
+    <p>&copy; Pranav Rishi 2025 Music Sample Clearance Project</p>
+  </footer>
+
+</body>
+</html>
